@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arbaaz.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <!--<a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>-->
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Arbaaz.</h1>
+        <h2>Python Web Developer / Programmer / Human</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <!--<a onclick="showcontact()">contact</a>-->
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://github.com/mrkhan4231"><i class="fab fa-github"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://twitter.com/ArbaazK14385506"><i class="fab fa-twitter"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href="https://linkedin.com/in/arbaaz-k-16a42117b"><i class="fab fa-linkedin"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social" href="mailto:mr.khan4231@gmail.com"><i class="far fa-envelope"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>works.</h1>
+        <section>
+            <h2>Blog Page</h2>
+            <p>
+                Project works will be coming soon....
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle"></i>&nbsp;bootsrtap</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Django</div>
+                <div><i class="fas fa-circle"></i>&nbsp;sql</div>
+            </div>
+            <button class="btn_one">live demo</button>
+            <button class="btn_two">Donate</button>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>about.</h1>
+            <section>
+                <h2>about me</h2>
+                <p>
+                    Hi, my name is Arbaaz. i am an Indian aspiring Web Developer and Programmer living in Mumbai, Maharashtra. <br><br> I started coding on my own when I was 19 years old, and haven’t stopped since then.
+                </p>
+                <p>
+                    I make Web Applications, usually with Django. I am comfortable using Django for all sorts of projects; full CMS websites, database-driven web applications, REST-driven frontend applications powered by Django, simple CRUD applications using Django's admin application and so on.
+                </p>
+                <p>
+                    I'm happy writing plain old Javascript or using many of the popular frontend libraries & frameworks out there. I also like putting together compliant, clean, maintainable and responsive HTML5 and CSS3 templates for clients.
+                </p>
+                <p>
+                    Today, I am working on my startup project(didn't kept any name for it yet &#x1F605;) a platform where aspiring bloggers can create their own blog page without any mess of coding their own blog page from scratch or buying an ugly wordpress themes. Bloggers can creating an account just other social platforms and earn from their contents by Affiliates or Ethical Ads. Its currently in private beta, but you’re welcome to email me for an invite or about partnership opportunities.
+                </p>
+                <p>
+                    In my spare time i like to learn Blockchain and A.I.
+                </p>
+            </section>
+            <section>
+                <h2>skills</h2>
+                <p>
+                    I have diverse set of skills form HTML5 + CSS3 + JavaScript to Python, C++ and all the way to Django and Reactjs.
+                </p>
+                <P>
+                    I use Linux & Windows OS as my development environment and Git as my version control system.
+                </P>
+            </section>
+        </div>
+          <!--<div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>contact.</h1>
+            <section>
+                <h2>contact me</h2>
+                <p>
+                    <form>
+                        <input type="text" placeholder="name" required>
+                        <input type="email" placeholder="email" required><br>
+                        <textarea placeholder="your message" required rows="5"></textarea><br>
+                        <button class="btn_one">send</button>
+                    </form> 
+                </p>
+            </section>
+        </div>-->
+        <!--<div id="footer">
+            Thank you <br> <a href="https://imfunniee.github.io">imfunniee</a>
+        </div>-->
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
