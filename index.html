@@ -102,12 +102,26 @@
             <section>
                 <h2>contact me</h2>
                 <p>
-                    <form action="https://formspree.io/xjvelljg" method="POST">
+                    <!--<form action="https://formspree.io/xjvelljg" method="POST">
                         <input type="text" placeholder="name" required>
                         <input type="email" placeholder="email" required><br>
                         <textarea placeholder="your message" required rows="5"></textarea><br>
                         <button class="btn_one">send</button>
-                    </form> 
+                    </form>-->
+                   <form action="https://formspree.io/xjvelljg" method="POST">
+                        <label>
+                            Your Name:
+                            <input type="text" name="name">
+                        </label>
+                        <label>
+                            Your Email:
+                            <input type="email" name="_replyto">
+                        </label>
+                        <label>
+                            Message:
+                            <textarea name="message"></textarea>
+                        </label>
+                   </form>
                 </p>
             </section>
         </div>
